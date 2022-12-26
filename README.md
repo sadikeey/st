@@ -8,25 +8,19 @@ Requirements
 In order to build st you need the Xlib header files.
 
 - On Debian/Ubuntu
-
 ```bash
 sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 ```
 
 - On Arch Linux
-
-```bash
-sudo pacman -S base-devel libx11 libxft libxinerama freetype2 fontconfig
 ```
 
 - On Fedora/RHEL
-
 ```bash
 sudo dnf install make cmake gcc libX11-devel libXft-devel libXinerama-devel libXrandr-devel
 ```
 
 - On Void Linux(case sensitive)
-
 ```bash
 sudo xbps-install base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel
 ```
